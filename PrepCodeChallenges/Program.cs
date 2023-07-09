@@ -43,7 +43,17 @@
 
         static void Challenge2()
         {
-            Console.WriteLine();
+            Console.Write("Enter a year: ");
+            int year = Convert.ToInt32(Console.ReadLine());
+
+            bool yearLept = false;
+
+            if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+            {
+                yearLept = true;
+            }
+
+            Console.WriteLine($"Is {year} a Leap Year? {yearLept}");
         }
 
         static void Challenge3()
