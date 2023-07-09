@@ -12,7 +12,33 @@
 
         static void Challenge1()
         {
-            Console.WriteLine();
+            int[] numbers = new int[5];
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write($"{i + 1}. Enter a number between 1 and 10: ");
+                numbers[i] = Convert.ToInt32(Console.ReadLine());
+            }
+
+            Console.WriteLine("Your entries: [" + string.Join(", ", numbers) + "]");
+
+            Console.Write("Select a number: ");
+            int selectedNumber = Convert.ToInt32(Console.ReadLine());
+
+            int score = CalculateScore(numbers, selectedNumber);
+            Console.WriteLine("Score: " + score);
+        }
+
+        static int CalculateScore(int[] numbers, int selectedNumber)
+        {
+            int score = 0;
+            foreach (int num in numbers)
+            {
+                if (num == selectedNumber)
+                {
+                    score += num;
+                }
+            }
+            return score;
         }
 
         static void Challenge2()
