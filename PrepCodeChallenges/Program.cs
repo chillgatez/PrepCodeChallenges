@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-         static void Main()
+        static void Main()
         {
             Challenge1();
             Challenge2();
@@ -98,7 +98,41 @@
 
         static void Challenge4()
         {
-            Console.WriteLine();
+            Console.Write("Enter the number of rows: ");
+            int rows = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter the number of columns: ");
+            int columns = int.Parse(Console.ReadLine());
+
+            int[,] matrix = new int[rows, columns];
+            Random randomNums = new Random();
+
+            Console.WriteLine("Your randomly generated matrix:");
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < columns; j++)
+                {
+                    matrix[i, j] = randomNums.Next(10);
+                    Console.Write(matrix[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
+
+            int[] rowSums = new int[rows];
+
+            for (int i = 0; i < rows; i++)
+            {
+                int sum = 0;
+
+                for (int j = 0; j < columns; j++)
+                {
+                    sum += matrix[i, j];
+                }
+
+                rowSums[i] = sum;
+            }
+
+            Console.WriteLine("Row Sums: [" + string.Join(", ", rowSums) + "]");
         }
     }
 }
