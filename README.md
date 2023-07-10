@@ -67,4 +67,4 @@ Yes
 
 **Successful Output**
 ![Successful output for Challenge 3 is perfect sequence](https://github.com/chillgatez/PrepCodeChallenges/blob/Challenge3/Screenshot%20(19).png?raw=true)
-![Successful output for Challenge 3 is perfect sequence](https://raw.githubusercontent.com/chillgatez/PrepCodeChallenges/a1796d7b5bf07161cbce908181fd450c2390b5cc/Screenshot%20(16).png)
+![Successful output for Challenge 3 is perfect sequence](https://github.com/chillgatez/PrepCodeChallenges/blob/Challenge3/Screenshot%20(20).png?raw=true)
