@@ -21,7 +21,7 @@
 
             Console.WriteLine("Your entries: [" + string.Join(", ", numbers) + "]");
 
-            Console.Write("Select a number: ");
+            Console.Write("Select a number from your entries: ");
             int selectedNumber = Convert.ToInt32(Console.ReadLine());
 
             int score = CalculateScore(numbers, selectedNumber);
@@ -58,7 +58,42 @@
 
         static void Challenge3()
         {
-            Console.WriteLine();
+            Console.Write("Enter an array of numbers separated by commas: ");
+            string input = Console.ReadLine();
+
+            string[] numbersStr = input.Split(',');
+            int[] numbers = new int[numbersStr.Length];
+
+            for (int i = 0; i < numbersStr.Length; i++)
+            {
+                if (!int.TryParse(numbersStr[i], out numbers[i]))
+                {
+                    throw new ArgumentException("Invalid input! Please enter a valid array of numbers separated by commas.");
+                }
+            }
+
+            bool isPerfectSequence = true;
+            int product = 1;
+            int sum = 0;
+
+            foreach (int num in numbers)
+            {
+                if (num < 0)
+                {
+                    isPerfectSequence = false;
+                    break;
+                }
+
+                product *= num;
+                sum += num;
+            }
+
+            if (product != sum)
+            {
+                isPerfectSequence = false;
+            }
+
+            Console.WriteLine("Is this a perfect sequence? " + (isPerfectSequence ? "Yes" : "No"));
         }
 
         static void Challenge4()
