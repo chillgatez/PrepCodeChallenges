@@ -19,7 +19,7 @@ An array of integers, and the number chosen.
 8
 
 **Successful Output**
-![Successful Output for CodeChallenge 1](https://github.com/chillgatez/PrepCodeChallenges/assets/123975076/a5e06519-7352-457c-b686-081989aa482a)
+![Successful Output for CodeChallenge 1](https://github.com/chillgatez/PrepCodeChallenges/blob/Challenge3/Screenshot%20(16).png?raw=true)
 
 ------
 
@@ -41,9 +41,30 @@ Want to know more about Leap Year? Watch this 4 minute video HERE
 **Note: This is not a trick problem. Edge cases do not need to be taken into consideration when creating a solution.**
 
 **Successful Output**
-![Successful Output for Challenge 2 leap year](https://github.com/chillgatez/PrepCodeChallenges/assets/123975076/eee8d118-9737-42df-bbeb-37ee22280cbf)
-![Successful Output for Challenge 2 not a leap year](https://github.com/chillgatez/PrepCodeChallenges/assets/123975076/a5867319-b9ed-4fb0-ae13-3ab0c332e62b)
+![Successful Output for Challenge 2 leap year](https://github.com/chillgatez/PrepCodeChallenges/blob/Challenge3/Screenshot%20(18).png?raw=true)
+![Successful Output for Challenge 2 not a leap year](https://github.com/chillgatez/PrepCodeChallenges/blob/Challenge3/Screenshot%20(17).png?raw=true)
 
 ------
 
+## Problem 3: Perfect Sequence
+**Problem Statement**
+Given an array, return “Yes” if the sequence is considered a perfect sequence. Otherwise, return “No”
 
+**Perfect Sequences**
+A perfect sequence is a sequence such that all of its elements are non-negative integers and the product of all of them is equal to their sum. For example: [2,2], [1,3,2] and [0,0,0,0] are perfect sequences and [4,5,6] and [0,2,-2] are not perfect sequences. Negative numbers of any kind are not valid in a perfect sequence
+
+**Input Format**
+An array of integers (may not be sorted)
+
+**Sample Input**
+[1,3,2]
+
+**Sample Output**
+Yes
+
+**Explanation**
+1 3 2 = 6 && 1 + 3 + 2 = 6
+
+**Successful Output**
+![Successful output for Challenge 3 is perfect sequence](https://github.com/chillgatez/PrepCodeChallenges/blob/Challenge3/Screenshot%20(19).png?raw=true)
+![Successful output for Challenge 3 is perfect sequence](https://github.com/chillgatez/PrepCodeChallenges/blob/Challenge3/Screenshot%20(20).png?raw=true)
