@@ -19,7 +19,7 @@ An array of integers, and the number chosen.
 8
 
 **Successful Output**
-![Successful Output for CodeChallenge 1](https://github.com/chillgatez/PrepCodeChallenges/assets/123975076/a5e06519-7352-457c-b686-081989aa482a)
+![Successful Output for CodeChallenge 1]()
 
 ------
 
@@ -41,8 +41,8 @@ Want to know more about Leap Year? Watch this 4 minute video HERE
 **Note: This is not a trick problem. Edge cases do not need to be taken into consideration when creating a solution.**
 
 **Successful Output**
-![Successful Output for Challenge 2 leap year](https://github.com/chillgatez/PrepCodeChallenges/assets/123975076/eee8d118-9737-42df-bbeb-37ee22280cbf)
-![Successful Output for Challenge 2 not a leap year](https://github.com/chillgatez/PrepCodeChallenges/assets/123975076/a5867319-b9ed-4fb0-ae13-3ab0c332e62b)
+![Successful Output for Challenge 2 leap year]()
+![Successful Output for Challenge 2 not a leap year]()
 
 ------
 
@@ -66,5 +66,5 @@ Yes
 1 3 2 = 6 && 1 + 3 + 2 = 6
 
 **Successful Output**
-![Successful output for Challenge 3 is perfect sequence](https://github.com/chillgatez/PrepCodeChallenges/assets/123975076/7aeb43cd-d6c8-4238-98ab-cbcb8cc7ec63)
-![Successful output for Challenge 3 is perfect sequence](https://github.com/chillgatez/PrepCodeChallenges/assets/123975076/0f1c5179-a7fc-46f8-8167-6ce5d116bbb4)
+![Successful output for Challenge 3 is perfect sequence]()
+![Successful output for Challenge 3 is perfect sequence]()
